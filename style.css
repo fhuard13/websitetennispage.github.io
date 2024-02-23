@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #d1861d;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    color: #ff5e00c5;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ff7300bb;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #4d5693;
+}
+
+.hero {
+    background: url("Raquette.jpg") no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    background-color: #ff7700d6;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta:hover {
+    background-color: #cc5500;
+    transform: scale(1.05);
+}
+
+.projects, .sample-packs {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-card, .pack {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover, .pack:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img, .pack img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+.project-card h3, .pack h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff8c00ee;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ff7b00e0;
+    text-decoration: none;
+}
